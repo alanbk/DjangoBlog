@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{%load crispy_forms_tags%}
+{% block body %}
+<br>
+<br>
+
+<div class="container">
+  <form method="get">
+    {{ form|crispy }}
+    <button type="submit">Search</button>
+  </form>
+
+
+	<div class="w3-container w3-center w3-animate-top">
+
+		                        <div class="w3-container w3-cyan" >
+               <H2>Search Results...</H2>
+            </div>
+
+
+  {% for post in posts %}
+  <br>
+ 
+                        <div class="w3-container w3-khaki" >
+               <h1>{{ post.title }}</h1>
+            </div>
+                        <div class="w3-container w3-teal"  >
+               <h1>{{ post.post }}</h1>
+            </div>
+                         <div class="w3-container w3-khaki" >
+               <h1>{{ post.user }}</h1>
+            </div>
+  {% endfor %}
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block body%}
+
+<div class="jumbotron">
+	<div class="w3-container w3-center w3-animate-left">
+    {% for post in object_list %}
+
+    <div class="w3-container w3-teal">
+  		<h1><a href="/home/post/{{post.id}}">{{ post.title}}</a></h1>
+	</div>
+    <h4 >BY : {{post.user}}</h4>
+    <h4 >POSTED ON : {{post.created}}</h4></u>
+    {% endfor %}
+</div>
+</div>
+{% endblock %}

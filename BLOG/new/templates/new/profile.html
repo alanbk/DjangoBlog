@@ -1,0 +1,23 @@
+{% extends 'base.html'%}
+
+
+
+{%block body%}
+<center>
+	<br><br><br>
+<div class="jumbotron" style="height: 450px; width: 450px";>
+<br><br><br>
+<h4>UserName: {{ user.username }} </h4>
+<br>
+<h4>FirstName: {{ user.first_name}} </h4>
+<br>
+<h4>LastName: {{ user.last_name }} </h4>
+<br>
+<h4>Email ID: {{ user.email }} </h4>
+
+<br>
+</center>
+</div>
+
+
+{%endblock%}
