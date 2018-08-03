@@ -1,5 +1,5 @@
 # DjangoBlog
-A Blogging WebApp Made on the Python Djang Framework
+A Blogging WebApp Made on the Python Django Framework
 
 Install the following packages: OR Use the Virtual Environment ZIP for Linux
 pip install django
@@ -8,7 +8,7 @@ pip install channels_redis
 pip install Django==1.11
 pip install django-crispy-forms
 
-Ensure Your Pip List Has the Following Packages Before Runnning The Program
+Ensure Your Pip List Has the Following Packages Before Runnning The Program <br />
 Package             Version
 ------------------- -------
 aioredis            1.1.0  
@@ -30,13 +30,11 @@ idna                2.7
 incremental         17.5.0 
 msgpack             0.5.6  
 pip                 18.0    
-pytz                2018.5 
-setuptools          40.0.0 
-
+pytz                2018.5  
 Twisted             18.7.0 
 txaio               18.7.1 
 wheel               0.31.1 
-------------------- -------
+------------------- -------  <br />
 Run the Redis Server using The Command:<br />
 sudo docker run -p 6379:6379 -d redis:2.8<br />
 After That,<br />
