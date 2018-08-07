@@ -2,13 +2,13 @@
 A Blogging WebApp Made on the Python Django Framework
 
 Install the following packages: OR Use the Virtual Environment ZIP for Linux
-'''
+```
 pip install django
 pip install channels
 pip install channels_redis
 pip install Django==1.11
 pip install django-crispy-forms
-'''
+```
 Ensure Your Pip List Has the Following Packages Before Runnning The Program <br />
 Package             Version
 ------------------- -------
