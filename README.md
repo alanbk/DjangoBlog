@@ -36,12 +36,13 @@ Twisted             18.7.0
 txaio               18.7.1 
 wheel               0.31.1 
 ------------------- -------  <br />
+```
 Run the Redis Server using The Command:<br />
 sudo docker run -p 6379:6379 -d redis:2.8<br />
 After That,<br />
 python manage.py runserver<br />
 And the WebApp Should be active at<br /> 127.0.0.1:8000
-
+```
 Features:<br />
 .........<br />
 Sign Up for new users <br />
